@@ -199,6 +199,10 @@ li {
   height: 2rem;
   padding-right: 1rem;
 }
+
+.header-mobile {
+  display: none;
+}
 /*---------------------FIN HEADER------------------*/
 /*-------------------DEBUT MAIN--------------------*/
 
@@ -630,6 +634,70 @@ textarea {
     body {
       text-align: center;
     }
+
+    header {
+      display: none;
+    }
+
+    .header-mobile {
+      display: block;
+    }
+
+    #button {
+      display: block;
+      float: right;
+      text-align: right;
+      height: 20px;
+      padding: 4% 4% 0 0;
+      /* z-index: 100000; */
+      /* position: fixed; */
+      /* text-align: right; */
+      /* padding-left: 95%; */
+      /* padding-top: 1% */
+    }
+
+    #button2 {
+      display: block;
+      float: right;
+      text-align: right;
+      height: 20px;
+      padding: 4% 4% 0 0;
+    }
+
+    #overlay {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f6f6f6;
+      animation-name: fadein;
+      animation-duration: 0.5s;
+      animation-timing-function: ease-in-out;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 0.5; }
+
+    }
+
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    nav a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: grey;
+    }
+
     .texte {
       z-index: -1000;
       height: auto;
