@@ -1,26 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 * {
   padding: 0;
   margin: 0;
 
-/*----------------------------DEBUT HEADER---------------------*/
-
 }
-/* -----------------DEBUT DU PARALLAX----------------- */
-body, html {
+
+html {
   height: 100%;
 }
+
+body {
+  font-family: Montserrat, Arial, sans-serif;
+  height: 100%;
+}
+
+header {
+  z-index: 1000;
+  box-shadow: 1px 1px 12px #555;
+  background-color: #f5f4f5;
+  width: 100vw;
+  position: fixed;
+}
+
+h1 {
+  line-height: 120%;
+  padding-bottom: 1rem;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 4%;
+}
+
+/* -----------------DEBUT DU PARALLAX----------------- */
 
 .body-home {
-  /* The image used */
-  /* overflow-x: hidden; */
   background-image: url("images/S13-JDo-04.10-172.jpg");
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+97&0+0,1+57 */
-
-
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -30,12 +48,7 @@ body, html {
 
 .body-entreprises {
   background-image: url("images/les-entreprises.jpg");
-
-
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,10 +58,7 @@ body, html {
 
 .body-contact {
   background-image: url("images/telephone.jpg");
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,10 +68,7 @@ body, html {
 
 .body-showroom {
   background-image: url("images/showroom.jpg");
-  /* Full height */
   height: 100%;
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,7 +86,7 @@ body, html {
   color: #3d3d3d;
 }
 
-.parallax-home {
+.parallax-empty {
   width: 100%;
   height: 600px;
 }
@@ -88,10 +95,7 @@ body, html {
   width: auto;
   height: 800px;
   background-color: #1fb1ae;
-  /* background-image: url("fond-bleu-2.png"); */
   clip-path: polygon(0 30%, 100% 0, 100% 100%, 0 100%);
-
-  /* background-color:red; */
   color: white;
 }
 
@@ -135,14 +139,7 @@ body, html {
 /* -----------------FIN DU PARALLAX----------------- */
 
 /* -----------------DEBUT DE LA NAV----------------- */
-header {
-  z-index: 1000;
-  box-shadow: 1px 1px 12px #555;
-}
 
-body {
-  font-family: sans-serif;
-}
 
 a {
   text-decoration: none;
@@ -151,13 +148,6 @@ a {
 
 a:active {
   color: #2b1c43;
-}
-
-header {
-  background-color: #f5f4f5;
-  width: 100vw;
-  z-index: 1000;
-  position: fixed;
 }
 
 li {
@@ -206,10 +196,7 @@ li {
 /*---------------------FIN HEADER------------------*/
 /*-------------------DEBUT MAIN--------------------*/
 
-h1 {
-  line-height: 120%;
-  padding-bottom: 1rem;
-}
+
 
 .texte {
   z-index: -1000;
@@ -247,11 +234,7 @@ h1 {
   color: white; */
 }
 
-h2 {
-  font-size: 30px;
-  font-weight: bold;
-  padding-bottom: 4%;
-}
+
 
 .section-soustitre p {
   font-style: italic;
@@ -496,10 +479,7 @@ textarea {
 
   /* ICI LE CSS CALENDAR*/
 
-  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-  body {
-      font-family: Montserrat, Arial, sans-serif;
-  }
+
   .table-calendrier {
       box-shadow: 5px 5px 5px rgba(31,178,175);
       border-radius: 10px;
@@ -649,11 +629,6 @@ textarea {
       text-align: right;
       height: 20px;
       padding: 4% 4% 0 0;
-      /* z-index: 100000; */
-      /* position: fixed; */
-      /* text-align: right; */
-      /* padding-left: 95%; */
-      /* padding-top: 1% */
     }
 
     #button2 {
@@ -748,6 +723,7 @@ textarea {
       clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
       margin-top: -45px;
   }
+
      .parallax-up-home {
       clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
       height: auto;
@@ -755,39 +731,39 @@ textarea {
     .sous-titre {
       width: 100%;
   }
+
     .parallax-up-home p {
       text-align: justify;
       padding: 0 1rem;
       font-size: 1rem;
       line-height: 20px;
   }
+
     .wrap-soustitre-home {
       display: block;
   }
+
     .titre-contenu {
       padding: 90px 0px 20px 0px;
       font-size: 30px;
       text-align: center;
     }
+
       .contenu-home {
         display: block;
         padding-top: 2rem;
     }
+
     .contenu-home p {
       width: auto;
       padding: 2rem 2rem 5rem 2rem;
   }
+  
     .image-contenu {
       width: 100%;
       padding: 0px 0px 5px 0px;
   }
-    .parallax-2-home {
-      width: auto;
-      height: 80px;
-      background-color: #f4f4f4;
-      clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-      margin-top: -45px;
-  }
+
 
       body {
       text-align: center;
@@ -835,13 +811,7 @@ textarea {
       width: 100%;
       padding: 0px 0px 5px 0px;
   }
-    .parallax-2-home {
-      width: auto;
-      height: 80px;
-      background-color: #f4f4f4;
-      clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-      margin-top: -45px;
-  }
+
      .parallax-up-home {
       clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
       height: auto;
@@ -875,13 +845,7 @@ textarea {
       width: 100%;
       padding: 0px 0px 5px 0px;
   }
-    .parallax-2-home {
-      width: auto;
-      height: 80px;
-      background-color: #f4f4f4;
-      clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-      margin-top: -45px;
-  }
+
   /*------------------------------------------------------------*/
 
   .parallax-up {
@@ -910,13 +874,7 @@ textarea {
     width: 100%;
     padding: 0px 0px 5px 0px;
 }
-  .parallax-2-home {
-    width: auto;
-    height: 80px;
-    background-color: #f4f4f4;
-    clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-    margin-top: -45px;
-}
+
    .parallax-up-home {
     clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
     height: auto;
@@ -950,13 +908,7 @@ textarea {
     width: 100%;
     padding: 0px 0px 5px 0px;
 }
-  .parallax-2-home {
-    width: auto;
-    height: 80px;
-    background-color: #f4f4f4;
-    clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-    margin-top: -45px;
-}
+
   .flexbox-entreprises {
     display: block;
   }
