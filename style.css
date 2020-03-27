@@ -758,7 +758,7 @@ textarea {
       width: auto;
       padding: 2rem 2rem 5rem 2rem;
   }
-  
+
     .image-contenu {
       width: 100%;
       padding: 0px 0px 5px 0px;
@@ -848,37 +848,41 @@ textarea {
 
   /*------------------------------------------------------------*/
 
-  .parallax-up {
-    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
-    height: auto;
-  }
+.parallax-up {
+  clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
+  height: auto;
+}
+  
   .sous-titre {
     width: 100%;
 }
+
   .parallax-up p {
     text-align: justify;
     padding: 0 1rem;
     font-size: 1rem;
     line-height: 20px;
 }
+
   .wrap-soustitre-home {
     display: block;
 }
-  .titre-contenu {
-    padding: 90px 0px 20px 0px;
-    font-size: 30px;
-    text-align: center;
-  }
 
-  .image-contenu {
-    width: 100%;
-    padding: 0px 0px 5px 0px;
+.titre-contenu {
+  padding: 90px 0px 20px 0px;
+  font-size: 30px;
+  text-align: center;
 }
 
-   .parallax-up-home {
-    clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
-    height: auto;
-  }
+.image-contenu {
+  width: 100%;
+  padding: 0px 0px 5px 0px;
+}
+
+ .parallax-up-home {
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+  height: auto;
+}
   .sous-titre {
     width: 100%;
 }
@@ -891,15 +895,15 @@ textarea {
   .wrap-soustitre-home {
     display: block;
 }
-  .titre-contenu {
-    padding: 90px 0px 20px 0px;
-    font-size: 30px;
-    text-align: center;
-  }
-    .contenu-home {
-      display: block;
-      padding-top: 2rem;
-  }
+.titre-contenu {
+  padding: 90px 0px 20px 0px;
+  font-size: 30px;
+  text-align: center;
+}
+  .contenu-home {
+    display: block;
+    padding-top: 2rem;
+}
   .contenu-home p {
     width: auto;
     padding: 2rem 2rem 5rem 2rem;
@@ -909,17 +913,17 @@ textarea {
     padding: 0px 0px 5px 0px;
 }
 
-  .flexbox-entreprises {
-    display: block;
-  }
-  .section-entreprises {
-    width: auto;
-  }
-  .parallax-2 {
-    clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
-    margin-top: -90px;
-    height: 100px;
-  }
+.flexbox-entreprises {
+  display: block;
+}
+.section-entreprises {
+  width: auto;
+}
+.parallax-2 {
+  clip-path: polygon(0 0%, 100% 40%, 100% 100%, 0 100%);
+  margin-top: -90px;
+  height: 100px;
+}
   .parallax-2-resa {
     width: auto;
     height: 800px;
@@ -927,6 +931,24 @@ textarea {
     background-image: url("fond-bleu-2.png");
     clip-path: polygon(0 0%, 100% 8%, 100% 100%, 0 100%);
     margin-top: -60px;
+}
+
+.parallax-up-contact {
+  width: auto;
+  background-color: #f4f4f4;
+  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+  color: #1fb1ae;
+  height: 970px;
+}
+
+.parallax-2-contact {
+  width: auto;
+  height: 100px;
+  background-color: #1fb1ae;
+  background-image: url("fond-bleu-2.png");
+  clip-path: polygon(0 0%, 100% 30%, 100% 100%, 0 100%);
+  margin-top: -50px;
+
 }
 .resa {
   padding: 90px 2rem 20px 2rem;
@@ -937,14 +959,6 @@ textarea {
   font-size: 13px;
   padding: 0px 2rem 0px 2rem;
   width: auto;
-}
-
-.parallax-up-contact {
-  width: auto;
-  background-color: #f4f4f4;
-  clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
-  color: #1fb1ae;
-  height: 970px;
 }
 
 .adresse {
@@ -974,16 +988,5 @@ textarea {
 
 li input {
   width: auto;
-}
-
-.parallax-2-contact {
-
-  width: auto;
-  height: 100px;
-  background-color: #1fb1ae;
-  background-image: url("fond-bleu-2.png");
-  clip-path: polygon(0 0%, 100% 30%, 100% 100%, 0 100%);
-  margin-top: -50px;
-
 }
 }
