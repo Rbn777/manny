@@ -132,10 +132,46 @@ h2 {
   margin-top: -180px;
 }
 
-.test{
-  height: 300px;
-  background-color: black;
+.parallax {
+  width: 100%;
+  height: 600px;
 }
+
+.parallax-up {
+  width: auto;
+  height: auto;
+  background-color: #1fb1ae;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  color: white;
+  padding-bottom: 20%;
+}
+
+.parallax-up-contact {
+  width: auto;
+  height: 900px;
+  background-color: #f4f4f4;
+  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+  color: #1fb1ae;
+}
+
+.parallax-2-contact {
+  width: auto;
+  height: 200px;
+  background-color: #1fb1ae;
+  /* background-image: url("fond-bleu-2.png"); */
+  clip-path: polygon(0 0%, 100% 90%, 100% 100%, 0 100%);
+  margin-top: -180px;
+}
+
+.parallax-2-resa {
+  width: auto;
+  height: 800px;
+  background-color: #f4f4f4;
+  /* background-image: url("fond-bleu-2.png"); */
+  clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0 100%);
+  margin-top: -250px;
+}
+
 /* -----------------FIN DU PARALLAX----------------- */
 
 /* -----------------DEBUT DE LA NAV----------------- */
@@ -209,33 +245,6 @@ li {
   line-height: 160%;
   position: fixed;
 }
-
-.parallax {
-  width: 100%;
-  height: 600px;
-}
-
-.parallax-up {
-  width: auto;
-  height: auto;
-  background-color: #1fb1ae;
-  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-  color: white;
-  padding-bottom: 20%;
-}
-
-/* .section-soustitre {
-  text-align: end;
-  width: 100%;
-  height: 10%;
-  margin: 0 5% 50px 0;
-  font-size: 0.9rem;
-  line-height: 140%;
-  color: white; */
-}
-
-
-
 .section-soustitre p {
   font-style: italic;
 }
@@ -416,23 +425,6 @@ textarea {
     color: #fff;
 }
 
-.parallax-up-contact {
-  width: auto;
-  height: 900px;
-  background-color: #f4f4f4;
-  clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
-  color: #1fb1ae;
-}
-
-.parallax-2-contact {
-  width: auto;
-  height: 200px;
-  background-color: #1fb1ae;
-  /* background-image: url("fond-bleu-2.png"); */
-  clip-path: polygon(0 0%, 100% 90%, 100% 100%, 0 100%);
-  margin-top: -180px;
-}
-
 .formulaire-contact {
   /* width: 100%; */
   display: flex;
@@ -466,17 +458,6 @@ textarea {
     width: 40%;
     color: #3d3d3d;
   }
-
-  .parallax-2-resa {
-    width: auto;
-    height: 800px;
-    background-color: #f4f4f4;
-    /* background-image: url("fond-bleu-2.png"); */
-    clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0 100%);
-    margin-top: -250px;
-  }
-
-
   /* ICI LE CSS CALENDAR*/
 
 
@@ -852,7 +833,7 @@ textarea {
   clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 100%);
   height: auto;
 }
-  
+
   .sous-titre {
     width: 100%;
 }
